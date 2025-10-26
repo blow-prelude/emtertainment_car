@@ -42,3 +42,4 @@
 ..\..\output\pstwo.o: ..\..\User\HARDWARE\./PSTWO/pstwo.h
 ..\..\output\pstwo.o: ..\..\User\CONTROL\control.h
 ..\..\output\pstwo.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\pstwo.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

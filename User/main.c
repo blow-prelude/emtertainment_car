@@ -12,7 +12,7 @@ Website: wheeltec.net
 Taobao shop: shop114407458.taobao.com 
 Aliexpress: https://minibalance.aliexpress.com/store/4455017
 Version: V1.0
-Update：2023-03-02
+Update：2023-03-02	
 
 All rights reserved
 ***********************************************/
@@ -23,6 +23,7 @@ u8 Flag_Show ;					//显示标志位，默认开启，长按切换到上位机模式，此时关闭
 float Perimeter;       // 轮子的周长
 float Wheelspacing;    // 轮子的间距
 u8 PS2_ON_Flag = 0;		//默认所有方式不控制
+int counter = 0;   // 用于记数
 
 int main(void)
 {
@@ -31,8 +32,8 @@ int main(void)
 		// 中断优先组分级
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
 		// 关闭JTAG接口并且打开SWD接口
-	JTAG_Set(JTAG_SWD_DISABLE);
-	JTAG_Set(SWD_ENABLE);
+//	JTAG_Set(JTAG_SWD_DISABLE);
+//	JTAG_Set(SWD_ENABLE);
 		// OLED初始化
 	OLED_Init();
 		// PS2初始化
@@ -42,7 +43,7 @@ int main(void)
 	Motor_Init(7199,0);
 	
 	if (Car_Num==Akm_Car){
-	// 初始化舵机
+	// 初始化舵机，设置舵机输出90°
 		Servo_Init(9999,71);
 	// 初始化轮子周长和轮距	
 		Car_Perimeter_Init();
@@ -54,6 +55,7 @@ int main(void)
 		PS2_Read();
 		// 显示在oled屏上
 		Show();	
+
 	}
 }
 

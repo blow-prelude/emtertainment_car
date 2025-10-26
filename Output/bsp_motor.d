@@ -43,3 +43,4 @@
 ..\..\output\bsp_motor.o: ..\..\User\HARDWARE\./PSTWO/pstwo.h
 ..\..\output\bsp_motor.o: ..\..\User\CONTROL\control.h
 ..\..\output\bsp_motor.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\bsp_motor.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

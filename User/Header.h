@@ -28,12 +28,13 @@ All rights reserved
 #include "./Motor/bsp_motor.h" 
 #include "./OLED/bsp_oled.h"
 #include "stdlib.h"
-#include "./OLED/oledfont.h"  	 
+#include "./OLED/oledfont.h"
 #include "./CONTROL/show.h"
 #include "./PSTWO/pstwo.h"
 #include "control.h"
 #include "./OLED/bsp_oled.h"
 #include "stdio.h"
+#include "math.h"
 
 
 extern volatile u8 delay_50,delay_flag; 			//延时变量
@@ -46,6 +47,7 @@ extern float Wheelspacing;    // 轮子的间距
 
 extern u16  DISTANCE,ANGLE;
 
+extern int counter;
 
 //车型选择的号码
 #define    Diff_Car    						  	0			

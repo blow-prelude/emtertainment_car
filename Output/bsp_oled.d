@@ -42,3 +42,4 @@
 ..\..\output\bsp_oled.o: ..\..\User\HARDWARE\./PSTWO/pstwo.h
 ..\..\output\bsp_oled.o: ..\..\User\CONTROL\control.h
 ..\..\output\bsp_oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\bsp_oled.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

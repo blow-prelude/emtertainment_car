@@ -42,3 +42,4 @@
 ..\..\output\bsp_generaltim.o: ..\..\User\HARDWARE\./PSTWO/pstwo.h
 ..\..\output\bsp_generaltim.o: ..\..\User\CONTROL\control.h
 ..\..\output\bsp_generaltim.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\bsp_generaltim.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

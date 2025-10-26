@@ -18,6 +18,7 @@ All rights reserved
 ***********************************************/
 
 #include "./PSTWO/pstwo.h"
+int my_start = 0;
 #define DELAY_TIME  delay_us(5); 
 u16 Handkey;	// 按键值读取，临时存储。
 u8 Comd[2]={0x01,0x42};	//开始命令。请求数据
@@ -331,6 +332,8 @@ void PS2_Read(void)
 		//The start button on the // handle is pressed
 		//手柄上的Start按键被按下
 		Strat=1; 
+//	if(++my_start>=30000)
+//		my_start=0;
 	//When the button is pressed, you need to push the right side forward to the formal ps2 control car
 	//Start按键被按下后，需要推下左边前进杆，才可以正式PS2控制小车
 	if(Strat&&(PS2_LY<118)&&PS2_ON_Flag==0)

@@ -702,8 +702,8 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_spi.h)(0x63E5AB52)
 I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
-F (..\..\User\main.c)(0x68F32E61)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
-I (..\..\User\Header.h)(0x68F333DF)
+F (..\..\User\main.c)(0x68FE1C77)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+I (..\..\User\Header.h)(0x68F7876B)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x63E5AB48)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x63E5AB44)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
@@ -735,14 +735,15 @@ I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./GeneralTim/bsp_GeneralTim.h)(0x6407F91E)
 I (..\..\User\HARDWARE\./beep/bsp_beep.h)(0x63E5ABAE)
-I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x6407F928)
+I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x68FA33B0)
 I (..\..\User\HARDWARE\./OLED/bsp_oled.h)(0x661DEC22)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\..\User\HARDWARE\./OLED/oledfont.h)(0x63E5ABAC)
-I (..\..\User\./CONTROL/show.h)(0x68F33189)
-I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x6407F94C)
-I (..\..\User\CONTROL\control.h)(0x68F3334B)
+I (..\..\User\./CONTROL/show.h)(0x68F781E9)
+I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x68F7820E)
+I (..\..\User\CONTROL\control.h)(0x68FA3A8D)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC77604)
 F (..\..\User\stm32f10x_conf.h)(0x63E5ABB8)()
 F (..\..\User\stm32f10x_it.c)(0x63E5ABB6)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\stm32f10x_it.o --omf_browse ..\..\output\stm32f10x_it.crf --depend ..\..\output\stm32f10x_it.d)
 I (..\..\User\stm32f10x_it.h)(0x63E5ABB6)
@@ -775,7 +776,7 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\stm32f10x_wwdg.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
 F (..\..\User\stm32f10x_it.h)(0x63E5ABB6)()
-F (..\..\User\Header.h)(0x68F333DF)()
+F (..\..\User\Header.h)(0x68F7876B)()
 F (..\..\User\HARDWARE\SysTick\bsp_SysTick.c)(0x63E5ABAC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_systick.o --omf_browse ..\..\output\bsp_systick.crf --depend ..\..\output\bsp_systick.d)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x63E5AB48)
@@ -836,19 +837,20 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\stm32f10x_wwdg.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
-I (..\..\User\Header.h)(0x68F333DF)
+I (..\..\User\Header.h)(0x68F7876B)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./beep/bsp_beep.h)(0x63E5ABAE)
-I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x6407F928)
+I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x68FA33B0)
 I (..\..\User\HARDWARE\./OLED/bsp_oled.h)(0x661DEC22)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\..\User\HARDWARE\./OLED/oledfont.h)(0x63E5ABAC)
-I (..\..\User\./CONTROL/show.h)(0x68F33189)
-I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x6407F94C)
-I (..\..\User\CONTROL\control.h)(0x68F3334B)
+I (..\..\User\./CONTROL/show.h)(0x68F781E9)
+I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x68F7820E)
+I (..\..\User\CONTROL\control.h)(0x68FA3A8D)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\..\User\HARDWARE\Motor\bsp_motor.c)(0x6407F924)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_motor.o --omf_browse ..\..\output\bsp_motor.crf --depend ..\..\output\bsp_motor.d)
-I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x6407F928)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC77604)
+F (..\..\User\HARDWARE\Motor\bsp_motor.c)(0x68FA34C1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_motor.o --omf_browse ..\..\output\bsp_motor.crf --depend ..\..\output\bsp_motor.d)
+I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x68FA33B0)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x63E5AB48)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x63E5AB44)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
@@ -878,19 +880,20 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\stm32f10x_wwdg.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
 I (..\..\User\HARDWARE\./GeneralTim/bsp_GeneralTim.h)(0x6407F91E)
-I (..\..\User\Header.h)(0x68F333DF)
+I (..\..\User\Header.h)(0x68F7876B)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./beep/bsp_beep.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./OLED/bsp_oled.h)(0x661DEC22)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\..\User\HARDWARE\./OLED/oledfont.h)(0x63E5ABAC)
-I (..\..\User\./CONTROL/show.h)(0x68F33189)
-I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x6407F94C)
-I (..\..\User\CONTROL\control.h)(0x68F3334B)
+I (..\..\User\./CONTROL/show.h)(0x68F781E9)
+I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x68F7820E)
+I (..\..\User\CONTROL\control.h)(0x68FA3A8D)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC77604)
 F (..\..\User\HARDWARE\OLED\bsp_oled.c)(0x6407F932)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_oled.o --omf_browse ..\..\output\bsp_oled.crf --depend ..\..\output\bsp_oled.d)
 I (..\..\User\HARDWARE\./OLED/bsp_oled.h)(0x661DEC22)
-I (..\..\User\Header.h)(0x68F333DF)
+I (..\..\User\Header.h)(0x68F7876B)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x63E5AB48)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x63E5AB44)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
@@ -922,16 +925,17 @@ I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./GeneralTim/bsp_GeneralTim.h)(0x6407F91E)
 I (..\..\User\HARDWARE\./beep/bsp_beep.h)(0x63E5ABAE)
-I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x6407F928)
+I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x68FA33B0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\..\User\HARDWARE\./OLED/oledfont.h)(0x63E5ABAC)
-I (..\..\User\./CONTROL/show.h)(0x68F33189)
-I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x6407F94C)
-I (..\..\User\CONTROL\control.h)(0x68F3334B)
+I (..\..\User\./CONTROL/show.h)(0x68F781E9)
+I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x68F7820E)
+I (..\..\User\CONTROL\control.h)(0x68FA3A8D)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\..\User\HARDWARE\PSTWO\pstwo.c)(0x68F33429)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\pstwo.o --omf_browse ..\..\output\pstwo.crf --depend ..\..\output\pstwo.d)
-I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x6407F94C)
-I (..\..\User\Header.h)(0x68F333DF)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC77604)
+F (..\..\User\HARDWARE\PSTWO\pstwo.c)(0x68FA3A35)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\pstwo.o --omf_browse ..\..\output\pstwo.crf --depend ..\..\output\pstwo.d)
+I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x68F7820E)
+I (..\..\User\Header.h)(0x68F7876B)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x63E5AB48)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x63E5AB44)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
@@ -963,13 +967,14 @@ I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./GeneralTim/bsp_GeneralTim.h)(0x6407F91E)
 I (..\..\User\HARDWARE\./beep/bsp_beep.h)(0x63E5ABAE)
-I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x6407F928)
+I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x68FA33B0)
 I (..\..\User\HARDWARE\./OLED/bsp_oled.h)(0x661DEC22)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\..\User\HARDWARE\./OLED/oledfont.h)(0x63E5ABAC)
-I (..\..\User\./CONTROL/show.h)(0x68F33189)
-I (..\..\User\CONTROL\control.h)(0x68F3334B)
+I (..\..\User\./CONTROL/show.h)(0x68F781E9)
+I (..\..\User\CONTROL\control.h)(0x68FA3A8D)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC77604)
 F (..\..\User\HARDWARE\beep\bsp_beep.c)(0x6407F8F2)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\bsp_beep.o --omf_browse ..\..\output\bsp_beep.crf --depend ..\..\output\bsp_beep.d)
 I (..\..\User\HARDWARE\./beep/bsp_beep.h)(0x63E5ABAE)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x63E5AB48)
@@ -1000,20 +1005,21 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_tim.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\stm32f10x_wwdg.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
-I (..\..\User\Header.h)(0x68F333DF)
+I (..\..\User\Header.h)(0x68F7876B)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./GeneralTim/bsp_GeneralTim.h)(0x6407F91E)
-I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x6407F928)
+I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x68FA33B0)
 I (..\..\User\HARDWARE\./OLED/bsp_oled.h)(0x661DEC22)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\..\User\HARDWARE\./OLED/oledfont.h)(0x63E5ABAC)
-I (..\..\User\./CONTROL/show.h)(0x68F33189)
-I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x6407F94C)
-I (..\..\User\CONTROL\control.h)(0x68F3334B)
+I (..\..\User\./CONTROL/show.h)(0x68F781E9)
+I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x68F7820E)
+I (..\..\User\CONTROL\control.h)(0x68FA3A8D)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\..\User\CONTROL\control.c)(0x68F3334D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\control.o --omf_browse ..\..\output\control.crf --depend ..\..\output\control.d)
-I (..\..\User\CONTROL\control.h)(0x68F3334B)
-I (..\..\User\Header.h)(0x68F333DF)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC77604)
+F (..\..\User\CONTROL\control.c)(0x68FA3872)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\control.o --omf_browse ..\..\output\control.crf --depend ..\..\output\control.d)
+I (..\..\User\CONTROL\control.h)(0x68FA3A8D)
+I (..\..\User\Header.h)(0x68F7876B)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x63E5AB48)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x63E5AB44)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
@@ -1045,15 +1051,16 @@ I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./GeneralTim/bsp_GeneralTim.h)(0x6407F91E)
 I (..\..\User\HARDWARE\./beep/bsp_beep.h)(0x63E5ABAE)
-I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x6407F928)
+I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x68FA33B0)
 I (..\..\User\HARDWARE\./OLED/bsp_oled.h)(0x661DEC22)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\..\User\HARDWARE\./OLED/oledfont.h)(0x63E5ABAC)
-I (..\..\User\./CONTROL/show.h)(0x68F33189)
-I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x6407F94C)
+I (..\..\User\./CONTROL/show.h)(0x68F781E9)
+I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x68F7820E)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
-F (..\..\User\CONTROL\show.c)(0x68F333DB)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\show.o --omf_browse ..\..\output\show.crf --depend ..\..\output\show.d)
-I (..\..\User\CONTROL\show.h)(0x68F33189)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC77604)
+F (..\..\User\CONTROL\show.c)(0x68FE1C5A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I ..\..\Libraries\CMSIS -I ..\..\User -I ..\..\Libraries\FWlib\inc -I ..\..\User\CONTROL -I ..\..\User\HARDWARE-ID:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-ID:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="531" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\..\output\show.o --omf_browse ..\..\output\show.crf --depend ..\..\output\show.d)
+I (..\..\User\CONTROL\show.h)(0x68F781E9)
 I (..\..\Libraries\CMSIS\stm32f10x.h)(0x63E5AB48)
 I (..\..\Libraries\CMSIS\core_cm3.h)(0x63E5AB44)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC775FC)
@@ -1083,15 +1090,16 @@ I (..\..\Libraries\FWlib\inc\stm32f10x_usart.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\stm32f10x_wwdg.h)(0x63E5AB54)
 I (..\..\Libraries\FWlib\inc\misc.h)(0x63E5AB4A)
 I (..\..\User\HARDWARE\./OLED/bsp_oled.h)(0x661DEC22)
-I (..\..\User\Header.h)(0x68F333DF)
+I (..\..\User\Header.h)(0x68F7876B)
 I (..\..\User\HARDWARE\./SysTick/bsp_SysTick.h)(0x63E5ABAE)
 I (..\..\User\HARDWARE\./GeneralTim/bsp_GeneralTim.h)(0x6407F91E)
 I (..\..\User\HARDWARE\./beep/bsp_beep.h)(0x63E5ABAE)
-I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x6407F928)
+I (..\..\User\HARDWARE\./Motor/bsp_motor.h)(0x68FA33B0)
 I (D:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC775FC)
 I (..\..\User\HARDWARE\./OLED/oledfont.h)(0x63E5ABAC)
-I (..\..\User\./CONTROL/show.h)(0x68F33189)
-I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x6407F94C)
-I (..\..\User\CONTROL\control.h)(0x68F3334B)
+I (..\..\User\./CONTROL/show.h)(0x68F781E9)
+I (..\..\User\HARDWARE\./PSTWO/pstwo.h)(0x68F7820E)
+I (..\..\User\CONTROL\control.h)(0x68FA3A8D)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC775FC)
+I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5EC77604)
 F (..\..\Doc\readme.txt)(0x6407F8E2)()

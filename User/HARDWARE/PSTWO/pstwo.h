@@ -90,6 +90,8 @@ extern u8 Data[9];
 extern u16 MASK[16];
 extern u16 Handkey;
 extern int PS2_LX,PS2_LY,PS2_RX,PS2_RY,PS2_KEY; 
+extern int my_start;
+
 
 void PS2_Init(void);
 u8 PS2_RedLight(void);  	 		//判断是否为红灯模式

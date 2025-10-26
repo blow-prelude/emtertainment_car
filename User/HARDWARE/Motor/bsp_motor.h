@@ -64,5 +64,5 @@ All rights reserved
 void Motor_Init(u16 arr,u16 psc);
 void Set_Pwm(int motor_a,int motor_b);
 void Servo_Init(u16 arr,u16 psc);
-
+int Map_V2Pwm(float Move_Velocity);
 #endif

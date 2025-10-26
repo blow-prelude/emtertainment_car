@@ -38,7 +38,7 @@ void Motor_Init(u16 arr,u16 psc)
 Function: Servo_Init
 Input   : TIM_Period,TIM_Prescaler
 Output  : none
-函数功能：舵机pwm输出初始化
+函数功能：舵机pwm输出初始化，设置定时器计数频率为1MHz，并初始化脉宽为1.5ms
 入口参数: 预装载值和预分频器 
 返回  值：无
 **************************************************************************/	 	
@@ -60,9 +60,10 @@ void Servo_Init(u16 arr,u16 psc)
 	TIM_TimeBaseInitStruct.TIM_Prescaler  = psc;          //设定预分频器
 	TIM_TimeBaseInitStruct.TIM_CounterMode = TIM_CounterMode_Up;//TIM向上计数模式
 	TIM_TimeBaseInitStruct.TIM_ClockDivision = TIM_CKD_DIV1;    //设置时钟分割
+	TIM_TimeBaseInitStruct.TIM_RepetitionCounter = 0;
 	TIM_TimeBaseInit(SERVO_TIM,&TIM_TimeBaseInitStruct);       	//初始化定时器
 
-	TIM_OCInitStruct.TIM_OCMode = TIM_OCMode_PWM1;             	//选择PWM1模式
+	TIM_OCInitStruct.TIM_OCMode = TIM_OCMode_PWM1;             	//选择PWM1模式，计数寄存器小于比较寄存器输出高电平
 	TIM_OCInitStruct.TIM_OutputState  = TIM_OutputState_Enable; //比较输出使能
 //	TIM_OCInitStruct.TIM_OutputNState = TIM_OutputNState_Disable;
 	TIM_OCInitStruct.TIM_Pulse = 0;                            	//设置待装入捕获比较寄存器的脉冲值
@@ -103,6 +104,11 @@ void Set_Pwm(int motor_a,int motor_b)
 	else 	            PWMB_IN2=7200,PWMB_IN1=7200-motor_b;
 }
 
+
+
+int Map_V2Pwm(float Move_Velocity){
+	return (int)( (Move_Velocity/1.23) *7199) ;
+}
 
 /************************************END OF FILE*******************************/
 

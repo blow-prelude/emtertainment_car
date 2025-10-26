@@ -42,3 +42,4 @@
 ..\..\output\bsp_beep.o: ..\..\User\HARDWARE\./PSTWO/pstwo.h
 ..\..\output\bsp_beep.o: ..\..\User\CONTROL\control.h
 ..\..\output\bsp_beep.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\bsp_beep.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

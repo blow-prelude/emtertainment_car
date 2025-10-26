@@ -6,7 +6,7 @@
 #define PWM_MAX  6900
 #define PWM_MIN  -6900
 
-#define Default_Velocity					350			//默认遥控速度，单位mm/s
+#define Default_Velocity					900			//默认遥控速度，单位mm/s
 #define Default_Turn_Bias					Pi/4			//默认遥控速度，单位度/s
 #define PS2_Turn_Angle						Pi/4		//阿克曼车手柄默认转向角度，单位rad
 
@@ -18,7 +18,7 @@
 #define RC_ON								1	
 #define RC_OFF								0
 //遥控控制前后速度最大值
-#define MAX_RC_Velocity						800
+#define MAX_RC_Velocity						1230
 //遥控控制转向速度最大值
 #define	MAX_RC_Turn_Bias					1
 //遥控控制前后速度最小值
@@ -52,30 +52,37 @@
 #define Pi									3.14159265358979f	//圆周率
 #define Angle_To_Rad						57.295779513f	//角度制转弧度制，除以这个参数
 #define Frequency							200.0f			//每5ms读取一次编码器的值
-#define SERVO_INIT 							1500  			//舵机零点PWM值
+#define SERVO_INIT 							1600  			//舵机零点PWM值
 
 
-//电机速度控制相关参数结构体
+
+
+
+
 typedef struct  
 {
-	float Current_Encoder;     	//编码器数值，读取电机实时速度
 	float Motor_Pwm;     		//电机PWM数值，控制电机实时速度
-	float Target_Encoder;  		//电机目标编码器速度值，控制电机目标速度
-	float Velocity; 	 		//电机速度值
-}Motor_parameter;
+	float Motor_Velocity; 	 		//目标电机速度值
+}My_Motor_parameter;
 
-
-
-extern float Move_X,Move_Z;						//目标速度和目标转向速度
+extern volatile float Move_X,Move_Z;						//目标速度和目标转向速度
 extern float PWM_Left,PWM_Right;					//左右电机PWM值
-extern float RC_Velocity,RC_Turn_Velocity;			//遥控控制的速度
+extern volatile float RC_Velocity,RC_Turn_Velocity;			//遥控控制的速度
 extern u8 Mode;								//模式选择，默认是普通的控制模式
-extern Motor_parameter MotorA,MotorB;				//左右电机相关变量
+
 extern int Servo_PWM;					//阿克曼舵机相关变量
 
+extern My_Motor_parameter My_MotorA,My_MotorB;    // 电机
 
 void PS2_Control(void);
 int TIMING_TIM_IRQHandler(void);
 
 void Car_Perimeter_Init(void);     // 计算轮子的周长
+void Get_Target_Encoder(float Vx,float Vz);
+void Get_Motor_PWM(void);
+
+float target_limit_float(float insert,float low,float high);
+int target_limit_int(int insert,int low,int high);
+float PWM_Limit(float IN,float max,float min);
+
 #endif
